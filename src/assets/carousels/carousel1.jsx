@@ -12,9 +12,9 @@ export default function Carousel1() {
 
     const carousel = [
         '/img1.webp',
-        '..../public/img2.avif',
-        './public/img3.avif',
-        './public/img4.webp',
+        '/img2.avif',
+        '/img3.avif',
+        '/img4.webp',
     ]
 
     return (
