@@ -11,15 +11,15 @@ export default function Carousel2() {
     }
 
     const carousel = [
-        '/img1.webp',
-        '/img2.avif',
-        '/img3.avif',
         '/img4.webp',
+        '/img3.avif',
+        '/img2.avif',
+        '/img1.webp',
     ]
 
     return (
         <container className="border p-4 rounded-md bg-gray-800">
-            <h1>Carousel 2</h1>
+            <h1 className="mb-2">Carousel 2</h1>
             <article className="relative border w-[400px] aspect-video rounded-lg overflow-hidden">
                 <div 
                     style={{ transform: `translateX(-${carouselIndex * 100}%)`}}
@@ -37,6 +37,7 @@ export default function Carousel2() {
                 {carousel.map((item, index) => {
                     return(
                         <button
+                            onClick={() => setCarouselIndex(index)}
                             className={`
                                 size-4 mx-1 border rounded-full transition-all duration-500
                                 ${carouselIndex === index ? 'bg-white' : 'bg-black'}
