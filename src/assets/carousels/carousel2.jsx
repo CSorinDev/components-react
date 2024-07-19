@@ -18,7 +18,7 @@ export default function Carousel2() {
     ]
 
     return (
-        <container>
+        <container className="border p-4 rounded-md bg-gray-800">
             <h1>Carousel 2</h1>
             <article className="relative border w-[400px] aspect-video rounded-lg overflow-hidden">
                 <div 

@@ -18,9 +18,12 @@ export default function Carousel1() {
     ]
 
     return (
-        <container>
-            <h1>Carousel 1</h1>
-            <article className="relative border w-[400px] aspect-video rounded-lg overflow-hidden">
+        <container className="border p-4 rounded-md bg-gray-800">
+            <div className="flex justify-between mb-2">
+                <h1>Carousel 1</h1>
+                <p>Copy code</p>
+            </div>
+            <article className="relative border w-[400px] aspect-video rounded-lg overflow-hidden shadow-md shadow-black">
                 <div 
                     style={{ transform: `translateX(-${carouselIndex * 100}%)`}}
                     className={`

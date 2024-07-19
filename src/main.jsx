@@ -6,6 +6,7 @@ import ErrorPage from "./error-page";
 import Home from "./routes/home";
 import Buttons from "./routes/buttons";
 import Carousels from "./routes/carousels";
+import Headers from "./routes/headers";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/carousels",
     element: <Carousels />
+  },
+  {
+    path: '/headers',
+    element: <Headers />
   }
 ]);
 
