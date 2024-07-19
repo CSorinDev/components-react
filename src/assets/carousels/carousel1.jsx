@@ -20,9 +20,10 @@ export default function Carousel1() {
     return (
         <>
             <article className="relative border w-[400px] aspect-video rounded-lg overflow-hidden">
-                <div className={`
+                <div 
+                    style={{ transform: `translateX(-${carouselIndex * 100}%)`}}
+                    className={`
                     absolute flex transition-all duration-500
-                    -translate-x-[${carouselIndex * 100}%]
                     `}>
                     {carousel.map((item, index) => {
                         return (
