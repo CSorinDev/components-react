@@ -1,10 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import "./index.css";
 import ErrorPage from "./error-page";
 import Home from "./routes/home";
 import Buttons from "./routes/buttons";
-import "./index.css";
+import Carousels from "./routes/carousels";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/buttons",
     element: <Buttons />
   },
+  {
+    path: "/carousels",
+    element: <Carousels />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
