@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/buttons",
-    element: <Buttons />
+    element: <Buttons />,
   },
   {
     path: "/carousels",
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/headers',
     element: <Headers />
+  },
+  {
+    path: '/*',
+    element: <Home />,
   }
 ]);
 
