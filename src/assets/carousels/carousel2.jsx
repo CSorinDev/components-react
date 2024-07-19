@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Carousel1() {
+export default function Carousel2() {
     const [carouselIndex, setCarouselIndex] = useState(0)
 
     const turnLeft = () => {
@@ -19,7 +19,7 @@ export default function Carousel1() {
 
     return (
         <container>
-            <h1>Carousel 1</h1>
+            <h1>Carousel 2</h1>
             <article className="relative border w-[400px] aspect-video rounded-lg overflow-hidden">
                 <div 
                     style={{ transform: `translateX(-${carouselIndex * 100}%)`}}
@@ -33,7 +33,19 @@ export default function Carousel1() {
                     })}
                 </div>
             </article>
-            <h1 className="w-[400px] text-center">{carouselIndex + 1} / {carousel.length}</h1>
+            <div className="w-[400px] flex justify-center gap-1 my-2">
+                {carousel.map((item, index) => {
+                    return(
+                        <button
+                            className={`
+                                size-4 mx-1 border rounded-full transition-all duration-500
+                                ${carouselIndex === index ? 'bg-white' : 'bg-black'}
+                                `}
+                        >
+                        </button>
+                    )
+                })}
+            </div>
             <div className="w-[400px] flex justify-center gap-4 text-3xl">
                 <button onClick={() => turnLeft()}>&larr;</button>
                 <button onClick={() => turnRight()}>&rarr;</button>
