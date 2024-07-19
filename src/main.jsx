@@ -26,10 +26,6 @@ const router = createBrowserRouter([
         path: '/headers',
         element: <Headers />
       },
-      {
-        path: '/*',
-        element: <Home />,
-      }
     ]
   },
 ]);
