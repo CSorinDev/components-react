@@ -1,4 +1,4 @@
-export default function SkreButton2() {
+export default function FillButton2() {
     return (
         <article className="p-4 w-fit text-white border shadow-sm shadow-white">
             <button className="

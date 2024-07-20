@@ -1,4 +1,4 @@
-export default function SkewButton1() {
+export default function FillButton1() {
     return (
         <article className="p-4 w-fit text-white border shadow-sm shadow-white">    
             <button

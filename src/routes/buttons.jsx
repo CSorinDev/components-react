@@ -6,9 +6,9 @@ import Hamburger5 from "../assets/buttons/hamburger5";
 import Hamburger6 from "../assets/buttons/hamburger6";
 import Hamburger7 from "../assets/buttons/hamburger7";
 import Hamburger8 from "../assets/buttons/hamburger8";
-import SkewButton1 from "../assets/buttons/skewButton1";
-import SkreButton2 from "../assets/buttons/skewButton2";
 import Layout from "../layouts/layout";
+import FillButton1 from "../assets/buttons/fillButton1";
+import FillButton2 from "../assets/buttons/fillButton2";
 
 export default function Buttons() {
     return (
@@ -22,8 +22,8 @@ export default function Buttons() {
                 <Hamburger6 />
                 <Hamburger7 />
                 <Hamburger8 />
-                <SkewButton1 />
-                <SkreButton2 />
+                <FillButton1 />
+                <FillButton2 />
             </section>
         </Layout>
     )
