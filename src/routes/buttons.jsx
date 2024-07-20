@@ -1,9 +1,10 @@
+import Hamburger1 from "../assets/buttons/hamburger1";
 import Layout from "../layouts/layout";
 
 export default function Buttons() {
     return (
         <Layout>
-            <h1>buttons page</h1>
+            <Hamburger1 />
         </Layout>
     )
 }
