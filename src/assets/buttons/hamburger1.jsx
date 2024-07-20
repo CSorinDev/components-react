@@ -9,7 +9,7 @@ export default function Hamburger1() {
             <button 
                 onClick={() => setHamburgerSwitch(!hamburgerSwitch)}
                 className={`
-                    size-[35px] relative mt-2
+                    size-[35px] relative mt-2 left-1/2 right-1/2 -translate-x-1/2
                 `}>
                 <div
                     className={`
