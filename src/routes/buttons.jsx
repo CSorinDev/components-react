@@ -16,7 +16,6 @@ export default function Buttons() {
     return (
         <Layout>
             <section className="flex gap-4 whitespace-nowrap flex-wrap">
-                <GetCode />
                 <Hamburger1 />
                 <Hamburger2 />
                 <Hamburger3 />
