@@ -6,12 +6,14 @@ import Hamburger5 from "../assets/buttons/hamburger5";
 import Hamburger6 from "../assets/buttons/hamburger6";
 import Hamburger7 from "../assets/buttons/hamburger7";
 import Hamburger8 from "../assets/buttons/hamburger8";
+import SkewButton1 from "../assets/buttons/skewButton1";
+import SkreButton2 from "../assets/buttons/skewButton2";
 import Layout from "../layouts/layout";
 
 export default function Buttons() {
     return (
         <Layout>
-            <section className="flex gap-4 whitespace-nowrap">
+            <section className="flex gap-4 whitespace-nowrap flex-wrap">
                 <Hamburger1 />
                 <Hamburger2 />
                 <Hamburger3 />
@@ -20,6 +22,8 @@ export default function Buttons() {
                 <Hamburger6 />
                 <Hamburger7 />
                 <Hamburger8 />
+                <SkewButton1 />
+                <SkreButton2 />
             </section>
         </Layout>
     )
