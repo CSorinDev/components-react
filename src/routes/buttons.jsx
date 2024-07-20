@@ -2,6 +2,7 @@ import Hamburger1 from "../assets/buttons/hamburger1";
 import Hamburger2 from "../assets/buttons/hamburger2";
 import Hamburger3 from "../assets/buttons/hamburger3";
 import Hamburger4 from "../assets/buttons/hamburger4";
+import Hamburger5 from "../assets/buttons/hamburger5";
 import Layout from "../layouts/layout";
 
 export default function Buttons() {
@@ -12,6 +13,7 @@ export default function Buttons() {
                 <Hamburger2 />
                 <Hamburger3 />
                 <Hamburger4 />
+                <Hamburger5 />
             </section>
         </Layout>
     )

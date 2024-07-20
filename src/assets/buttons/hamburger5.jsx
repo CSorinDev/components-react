@@ -1,11 +1,11 @@
 import { useState } from "react"
 
-export default function Hamburger4() {
+export default function Hamburger5() {
     const [hamburgerSwitch, setHamburgerSwitch ] = useState(false)
 
     return(
         <article className="p-4 w-fit text-white border shadow-sm shadow-white">
-            <h1>Hamburger 4</h1>
+            <h1>Hamburger 5</h1>
             <button 
                 onClick={() => setHamburgerSwitch(!hamburgerSwitch)}
                 className={`
@@ -13,26 +13,26 @@ export default function Hamburger4() {
                 `}>
                 <div
                     className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] origin-right
-                        ${hamburgerSwitch ? 'scale-0' : 'scale-1 delay-300'}
+                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute
+                        ${hamburgerSwitch ? 'top-[15px] opacity-0 ' : 'opacity-1 top-[5px] delay-300'}
                         `}
                 ></div>
                 <div
                     className={`
                         transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center
-                        ${hamburgerSwitch ? 'rotate-45 delay-300' : 'rotate-0' }
+                        ${hamburgerSwitch ? 'rotate-45 delay-300 ' : 'rotate-0 '}
                         `}
                 ></div>
                 <div
                     className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] origin-center
-                        ${hamburgerSwitch ? '-rotate-45 delay-300' : 'rotate-0' }
+                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center
+                        ${hamburgerSwitch ? '-rotate-45 delay-300 ' : 'rotate-0 '}
                         `}
                 ></div>
                 <div
                     className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] origin-left
-                        ${hamburgerSwitch ? 'scale-0' : 'scale-1 delay-300'}
+                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute
+                        ${hamburgerSwitch ? 'top-[15px] opacity-0' : 'opacity-1 top-[25px] delay-300'}
                         `}
                 ></div>
             </button>
