@@ -13,12 +13,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
     errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/contact",
-        element: <h1 className="flex justify-center items-center h-svh">Contact</h1>
-      }
-    ]
   },
   {
     path: "/buttons",
@@ -32,10 +26,6 @@ const router = createBrowserRouter([
     path: '/headers',
     element: <Headers />
   },
-  {
-    path: "/*",
-    element: <ErrorPage />
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
