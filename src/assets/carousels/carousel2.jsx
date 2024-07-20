@@ -37,6 +37,7 @@ export default function Carousel2() {
                 {carousel.map((item, index) => {
                     return(
                         <button
+                            key={index}
                             onClick={() => setCarouselIndex(index)}
                             className={`
                                 size-4 mx-1 border rounded-full transition-all duration-500
