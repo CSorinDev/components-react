@@ -9,6 +9,7 @@ import Hamburger8 from "../assets/buttons/hamburger8";
 import Layout from "../layouts/layout";
 import FillButton1 from "../assets/buttons/fillButton1";
 import FillButton2 from "../assets/buttons/fillButton2";
+import FillButton3 from "../assets/buttons/fillButton3";
 
 export default function Buttons() {
     return (
@@ -24,6 +25,7 @@ export default function Buttons() {
                 <Hamburger8 />
                 <FillButton1 />
                 <FillButton2 />
+                <FillButton3 />
             </section>
         </Layout>
     )
