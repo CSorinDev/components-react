@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import Header from "../components/header";
 import Footer from "../components/footer";
 import CopyIcon from "../assets/icons/copyIcon";
@@ -18,7 +17,3 @@ export default function Layout({ children }) {
         </>
     )
 }
-
-Layout.propTypes = {
-    children: PropTypes.node.isRequired,
-};
