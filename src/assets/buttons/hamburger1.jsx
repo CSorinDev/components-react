@@ -8,7 +8,7 @@ export default function Hamburger1() {
         <Article title='Hamburger 1'
         code={`<button 
     onClick={() => setHamburgerSwitch(!hamburgerSwitch)}
-    className='size-[35px] relative mt-2 left-1/2 right-1/2 -translate-x-1/2'>
+    className='size-[35px] relative'>
     <div
         className={
             hamburgerSwitch ? 
@@ -34,7 +34,7 @@ export default function Hamburger1() {
 </button>`}>
             <button 
                 onClick={() => setHamburgerSwitch(!hamburgerSwitch)}
-                className='size-[35px] relative mt-2 left-1/2 right-1/2 -translate-x-1/2'>
+                className='size-[35px] relative'>
                 <div
                     className={
                         hamburgerSwitch ? 
