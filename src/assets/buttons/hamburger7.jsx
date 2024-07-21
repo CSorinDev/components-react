@@ -15,7 +15,7 @@ export default function Hamburger7() {
                 <div
                     className={`
                         transition-all w-[35px] h-[5px] bg-white rounded-full absolute
-                        ${hamburgerSwitch ? 'top-[15px] opacity-0 ' : 'opacity-1 top-[5px] delay-300'}
+                        ${hamburgerSwitch ? 'top-[15px] opacity-0 ' : 'top-[5px] delay-300'}
                         `}
                 ></div>
                 <div
@@ -33,7 +33,7 @@ export default function Hamburger7() {
                 <div
                     className={`
                         transition-all w-[35px] h-[5px] bg-white rounded-full absolute
-                        ${hamburgerSwitch ? 'top-[15px] opacity-0' : 'opacity-1 top-[25px] delay-300'}
+                        ${hamburgerSwitch ? 'top-[15px] opacity-0' : 'top-[25px] delay-300'}
                         `}
                 ></div>
             </button>
