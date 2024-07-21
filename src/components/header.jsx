@@ -12,7 +12,7 @@ export default function Header() {
     ]
 
     return(
-        <header className="fixed top-0 left-0 w-[300px] h-svh p-4 bg-gray-100 text-black flex flex-col border-r shadow-lg shadow-white">
+        <header className="fixed top-0 left-0 w-[300px] h-svh p-4 bg-gray-100 text-black flex flex-col border-r shadow-md shadow-black">
             <h1 className="text-3xl text-center underline mt-4 mb-8">React <br /> Components</h1>
             {menu.map((item, index) => {
                 return(
