@@ -18,18 +18,14 @@ export default function Header() {
                 return(
                     <Link 
                         className={`
-                            relative py-2 px-4 transition-all my-2 text-xl
-                            hover:text-white
-                            after:content-[''] after:absolute after:w-0 after:h-full after:bg-blue-500 after:top-0 after:left-0 after:transition-all
-                            hover:after:w-full
-                            ${window.location.pathname === item.path && 'bg-blue-500 text-white'}
-                `}
+                            py-2 px-4 my-1 text-xl transition-all
+                            hover:bg-blue-500 hover:text-white
+                            ${location.pathname === item.path ? 'bg-blue-500 text-white' : 'no-underline'}
+                            `}
                         to={item.path} 
                         key={index}
                         >
-                        <span  className="z-10 relative">
-                            {item.name}
-                        </span>
+                        {item.name}
                     </Link>
                 )
             })}
