@@ -16,6 +16,7 @@ export default function Header() {
             <h1 className="text-3xl text-center underline mt-4 mb-8 text-pretty">
                 React Components with Tailwind
             </h1>
+            <img className="absolute bottom-4 right-4 fill-black shadow-md shadow-black size-12 bg-red-500" src="/dev.png" alt='Logo'/>
             {menu.map((item, index) => {
                 return(
                     <Link 
