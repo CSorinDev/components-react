@@ -10,6 +10,8 @@ import Layout from "../layouts/layout";
 import FillButton1 from "../assets/buttons/fillButton1";
 import FillButton2 from "../assets/buttons/fillButton2";
 import FillButton3 from "../assets/buttons/fillButton3";
+import FillButton4 from "../assets/buttons/fillButton4";
+import TestButton from "../assets/buttons/testButton";
 
 export default function Buttons() {
     return (
@@ -31,6 +33,8 @@ export default function Buttons() {
                 <FillButton1 />
                 <FillButton2 />
                 <FillButton3 />
+                <FillButton4 />
+                <TestButton />
             </section>
         </Layout>
     )
