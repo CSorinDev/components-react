@@ -7,7 +7,7 @@ export default function Layout({ children }) {
         <>
             <Header />
             <main className="ml-[300px] mb-8 p-8">
-                <h1 className="text-2xl my-4 flex justify-center items-center">
+                <h1 className="text-2xl my-4 flex justify-center items-center whitespace-nowrap">
                     Click &nbsp; <CopyIcon /> &nbsp; to copy the code!
                 </h1>
                 <hr className="my-4" />
