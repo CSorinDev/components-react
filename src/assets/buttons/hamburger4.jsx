@@ -13,29 +13,29 @@ export default function Hamburger4() {
     <div
         className={
             hamburgerSwitch
-            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] origin-right scale-0'
-            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] origin-right scale-1 delay-300'
+            ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[5px] origin-right scale-0'
+            : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[5px] origin-right scale-1 delay-300'
         }>
     </div>
     <div
         className={
             hamburgerSwitch
-            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center rotate-45 delay-300'
-            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center rotate-0'
+            ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] mx-auto origin-center rotate-45 delay-300'
+            : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] mx-auto origin-center rotate-0'
         }>
     </div>
     <div
         className={
             hamburgerSwitch
-            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] origin-center -rotate-45 delay-300'
-            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] origin-center rotate-0'
+            ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] origin-center -rotate-45 delay-300'
+            : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] origin-center rotate-0'
         }>
     </div>
     <div
         className={
             hamburgerSwitch
-            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] origin-left scale-0'
-            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] origin-left scale-1 delay-300'
+            ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[25px] origin-left scale-0'
+            : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[25px] origin-left scale-1 delay-300'
         }>
     </div>
 </button>`}>
@@ -45,29 +45,29 @@ export default function Hamburger4() {
                 <div
                     className={
                         hamburgerSwitch
-                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] origin-right scale-0'
-                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] origin-right scale-1 delay-300'
+                        ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[5px] origin-right scale-0'
+                        : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[5px] origin-right scale-1 delay-300'
                     }>
                 </div>
                 <div
                     className={
                         hamburgerSwitch
-                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center rotate-45 delay-300'
-                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center rotate-0'
+                        ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] mx-auto origin-center rotate-45 delay-300'
+                        : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] mx-auto origin-center rotate-0'
                     }>
                 </div>
                 <div
                     className={
                         hamburgerSwitch
-                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] origin-center -rotate-45 delay-300'
-                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] origin-center rotate-0'
+                        ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] origin-center -rotate-45 delay-300'
+                        : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[15px] origin-center rotate-0'
                     }>
                 </div>
                 <div
                     className={
                         hamburgerSwitch
-                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] origin-left scale-0'
-                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] origin-left scale-1 delay-300'
+                        ? 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[25px] origin-left scale-0'
+                        : 'transition-all w-[35px] h-[5px] bg-black rounded-full absolute top-[25px] origin-left scale-1 delay-300'
                     }>
                 </div>
             </button>
