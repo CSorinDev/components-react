@@ -10,7 +10,6 @@ import Layout from "../layouts/layout";
 import FillButton1 from "../assets/buttons/fillButton1";
 import FillButton2 from "../assets/buttons/fillButton2";
 import FillButton3 from "../assets/buttons/fillButton3";
-import GetCode from "../assets/getCode";
 
 export default function Buttons() {
     return (
