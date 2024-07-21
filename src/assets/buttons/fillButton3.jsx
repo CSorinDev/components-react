@@ -6,7 +6,7 @@ export default function FillButton3() {
             title='Fill Button 3'
             code={`<button
     className="
-        relative border-2 border-black py-2 px-6 -skew-x-[30deg] overflow-
+        relative border-2 border-black bg-white py-2 px-6 -skew-x-[30deg] overflow-
         after:absolute after:content-[''] after:bg-blue-500 after:h-full after:w-0 after:origin-left after:top-0 after:left-0 after:transition-all
         hover:after:w-full
     "
@@ -15,7 +15,7 @@ export default function FillButton3() {
 </button>`}>
             <button
                 className="
-                    relative border-2 border-black py-2 px-6 -skew-x-[30deg] overflow-
+                    relative border-2 border-black bg-white py-2 px-6 -skew-x-[30deg] overflow-
                     after:absolute after:content-[''] after:bg-blue-500 after:h-full after:w-0 after:origin-left after:top-0 after:left-0 after:transition-all
                     hover:after:w-full
                 "
