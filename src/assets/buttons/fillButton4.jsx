@@ -4,7 +4,7 @@ export default function FillButton4() {
     return(
         <Article
             title="Fill Button 4"
-            code={`export default function FillButton4() {
+            code={`export default function FillButton() {
     return(
             <button
                 className="

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import { useLocation } from "react-router-dom"
-import FillButton4 from "../assets/buttons/fillButton4"
 
 export default function Header() {
     const location = useLocation()
@@ -19,13 +18,18 @@ export default function Header() {
                 return(
                     <Link 
                         className={`
-                            py-2 px-4 my-1 text-xl transition-all
-                            hover:bg-blue-500 hover:text-white
-                            ${location.pathname === item.path ? 'bg-blue-500 text-white' : 'no-underline'}
-                            `}
+                            relative py-2 px-4 transition-all my-2 text-xl
+                            hover:text-white
+                            after:content-[''] after:absolute after:w-0 after:h-full after:bg-blue-500 after:top-0 after:left-0 after:transition-all
+                            hover:after:w-full
+                            ${window.location.pathname === item.path && 'bg-blue-500 text-white'}
+                `}
                         to={item.path} 
                         key={index}
-                        >{item.name}
+                        >
+                        <span  className="z-10 relative">
+                            {item.name}
+                        </span>
                     </Link>
                 )
             })}
