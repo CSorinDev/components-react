@@ -34,7 +34,6 @@ export default function Buttons() {
                 <FillButton2 />
                 <FillButton3 />
                 <FillButton4 />
-                <TestButton />
             </section>
         </Layout>
     )
