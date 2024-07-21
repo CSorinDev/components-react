@@ -14,8 +14,8 @@ import FillButton3 from "../assets/buttons/fillButton3";
 export default function Buttons() {
     return (
         <Layout>
-            <h1>Hamburgers</h1>
-            <section className="flex gap-4 whitespace-nowrap flex-wrap my-4">
+            <h1 className="mt-4">Hamburgers</h1>
+            <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
                 <Hamburger1 />
                 <Hamburger2 />
                 <Hamburger3 />
@@ -25,9 +25,9 @@ export default function Buttons() {
                 <Hamburger7 />
                 <Hamburger8 />
             </section>
-            <hr />
+            <hr className="my-4" />
             <h1 className="mt-4">Filling Buttons</h1>
-            <section className="flex gap-4 whitespace-nowrap flex-wrap my-4">
+            <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
                 <FillButton1 />
                 <FillButton2 />
                 <FillButton3 />
