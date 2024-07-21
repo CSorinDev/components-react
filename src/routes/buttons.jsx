@@ -16,7 +16,7 @@ import TestButton from "../assets/buttons/testButton";
 export default function Buttons() {
     return (
         <Layout>
-            <h1 className="my-4 text-xl underline font-bold">Hamburgers</h1>
+            <h1 className="my-4 text-xl underline font-semibold">Hamburgers</h1>
             <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
                 <Hamburger1 />
                 <Hamburger2 />
@@ -28,7 +28,7 @@ export default function Buttons() {
                 <Hamburger8 />
             </section>
             <hr className="my-4" />
-            <h1 className="my-4 text-xl underline font-bold">Filling Buttons</h1>
+            <h1 className="my-4 text-xl underline font-semibold">Filling Buttons</h1>
             <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
                 <FillButton1 />
                 <FillButton2 />
