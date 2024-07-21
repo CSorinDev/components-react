@@ -1,42 +1,76 @@
 import { useState } from "react"
+import Article from "../article"
 
 export default function Hamburger7() {
     const [hamburgerSwitch, setHamburgerSwitch ] = useState(false)
 
     return(
-        <article className="p-4 w-fit text-white border shadow-sm shadow-white">
-            <h1>Hamburger 7</h1>
+        <Article
+            title="Hamburger 7"
+            code={`<button 
+    onClick={() => setHamburgerSwitch(!hamburgerSwitch)}
+    className="size-[35px] relative">
+    <div
+        className={
+            hamburgerSwitch
+            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] opacity-0'
+            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] delay-300'
+        }>
+    </div>
+    <div
+        className={
+            hamburgerSwitch
+            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center rotate-45 delay-300'
+            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center'
+        }>
+    </div>
+    <div
+        className={
+            hamburgerSwitch
+            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center -rotate-45 delay-300'
+            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center'
+        }>
+    </div>
+    <div
+        className={
+            hamburgerSwitch
+            ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] opacity-0'
+            : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] delay-300'
+        }>
+    </div>
+</button>`}>
             <button 
                 onClick={() => setHamburgerSwitch(!hamburgerSwitch)}
-                className={`
-                    size-[35px] relative mt-2 left-1/2 right-1/2 -translate-x-1/2 transition-all duration-500
-                    ${hamburgerSwitch ? 'rotate-[360deg]' : 'rotate-0'}
-                `}>
+                className="size-[35px] relative">
                 <div
-                    className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute
-                        ${hamburgerSwitch ? 'top-[15px] opacity-0 ' : 'top-[5px] delay-300'}
-                        `}
-                ></div>
+                    className={
+                        hamburgerSwitch
+                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] opacity-0'
+                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[5px] delay-300'
+                    }>
+                </div>
                 <div
-                    className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center
-                        ${hamburgerSwitch ? 'rotate-45 delay-300 ' : 'rotate-0 '}
-                        `}
-                ></div>
+                    className={
+                        hamburgerSwitch
+                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center rotate-45 delay-300'
+                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center'
+                    }>
+                </div>
                 <div
-                    className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center
-                        ${hamburgerSwitch ? '-rotate-45 delay-300 ' : 'rotate-0 '}
-                        `}
-                ></div>
+                    className={
+                        hamburgerSwitch
+                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center -rotate-45 delay-300'
+                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] mx-auto origin-center'
+                    }>
+                </div>
                 <div
-                    className={`
-                        transition-all w-[35px] h-[5px] bg-white rounded-full absolute
-                        ${hamburgerSwitch ? 'top-[15px] opacity-0' : 'top-[25px] delay-300'}
-                        `}
-                ></div>
+                    className={
+                        hamburgerSwitch
+                        ? 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[15px] opacity-0'
+                        : 'transition-all w-[35px] h-[5px] bg-white rounded-full absolute top-[25px] delay-300'
+                    }>
+                </div>
             </button>
-        </article>
+        </Article>
     )
 }
