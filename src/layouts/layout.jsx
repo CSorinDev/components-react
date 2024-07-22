@@ -1,5 +1,4 @@
 import Header from "../components/header";
-import Footer from "../components/footer";
 import CopyIcon from "../assets/icons/copyIcon";
 
 export default function Layout({ children }) {
@@ -12,7 +11,6 @@ export default function Layout({ children }) {
                 </h1>
                 {children}
             </main>
-            <img className="absolute bottom-4 left-4 fill-black shadow-md shadow-black size-12 bg-red-500" src="/dev.png" alt='Logo'/>
         </>
     )
 }

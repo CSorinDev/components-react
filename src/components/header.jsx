@@ -31,6 +31,10 @@ export default function Header() {
                     </Link>
                 )
             })}
+            <img 
+                className="size-12 bg-red-500 absolute bottom-4 left-4"
+                src="/dev.png" 
+                alt="Dev 55 Logo" />
         </header>
     )
 }
