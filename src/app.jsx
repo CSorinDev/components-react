@@ -28,9 +28,9 @@ export default function App() {
         ],
       },
       {
-        path: "/buttons",
-        element: <Buttons />,
-      },
+        path: "*",
+        element: <App />
+      }
     ]);
     
     return (
