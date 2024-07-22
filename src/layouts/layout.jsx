@@ -10,10 +10,8 @@ export default function Layout({ children }) {
                 <h1 className="text-2xl my-4 flex justify-center items-center whitespace-nowrap">
                     Click &nbsp; <CopyIcon /> &nbsp; to copy the code!
                 </h1>
-                <hr className="my-4" />
                 {children}
             </main>
-            <Footer />
             <img className="absolute bottom-4 left-4 fill-black shadow-md shadow-black size-12 bg-red-500" src="/dev.png" alt='Logo'/>
         </>
     )
