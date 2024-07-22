@@ -5,6 +5,10 @@ export default function ErrorPage() {
 
     const navigate = useNavigate()
 
+    return(
+        <h1>Oops</h1>
+    )
+
     useEffect(() => {
         setTimeout(() => {
             navigate('/')
