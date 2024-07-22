@@ -12,12 +12,12 @@ import FillButton2 from "../assets/buttons/fillButton2";
 import FillButton3 from "../assets/buttons/fillButton3";
 import FillButton4 from "../assets/buttons/fillButton4";
 import TestButton from "../assets/buttons/testButton";
+import Section from "../assets/section";
 
 export default function Buttons() {
     return (
         <section>
-            <h1 className="my-4 text-xl underline font-semibold">Hamburgers</h1>
-            <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
+            <Section title="Hamburgers">
                 <Hamburger1 />
                 <Hamburger2 />
                 <Hamburger3 />
@@ -26,15 +26,16 @@ export default function Buttons() {
                 <Hamburger6 />
                 <Hamburger7 />
                 <Hamburger8 />
-            </section>
-            <hr className="my-4" />
-            <h1 className="my-4 text-xl underline font-semibold">Filling Buttons</h1>
-            <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
+            </Section>
+            <Section title="Filling Buttons">
                 <FillButton1 />
                 <FillButton2 />
                 <FillButton3 />
                 <FillButton4 />
-            </section>
+            </Section>
+            <Section>
+                <TestButton />
+            </Section>
         </section>
     )
 }
