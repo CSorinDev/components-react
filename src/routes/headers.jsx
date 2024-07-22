@@ -4,13 +4,11 @@ import Layout from "../layouts/layout";
 
 export default function Headers() {
     return(
-        <Layout>
             <section className="flex flex-col gap-8">
                 <h1 className="text-xl font-semibold underline">Horizontal headers</h1>
                 <Header1 />
                 <Header2 />
                 <hr />
             </section>
-        </Layout>
     )
 }

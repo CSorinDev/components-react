@@ -15,7 +15,7 @@ import TestButton from "../assets/buttons/testButton";
 
 export default function Buttons() {
     return (
-        <Layout>
+        <section>
             <h1 className="my-4 text-xl underline font-semibold">Hamburgers</h1>
             <section className="flex gap-4 whitespace-nowrap flex-wrap py-4">
                 <Hamburger1 />
@@ -35,6 +35,6 @@ export default function Buttons() {
                 <FillButton3 />
                 <FillButton4 />
             </section>
-        </Layout>
+        </section>
     )
 }

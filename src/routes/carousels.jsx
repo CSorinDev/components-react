@@ -4,11 +4,9 @@ import Layout from "../layouts/layout";
 
 export default function Carousels() {
     return(
-        <Layout>
             <section className="flex gap-8 flex-wrap">
                 <Carousel1 />
                 <Carousel2 />
             </section>
-        </Layout>
     )
 }
