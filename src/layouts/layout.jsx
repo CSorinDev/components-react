@@ -14,6 +14,7 @@ export default function Layout({ children }) {
                 {children}
             </main>
             <Footer />
+            <img className="absolute bottom-4 left-4 fill-black shadow-md shadow-black size-12 bg-red-500" src="/dev.png" alt='Logo'/>
         </>
     )
 }
