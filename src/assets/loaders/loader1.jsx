@@ -6,7 +6,7 @@ export default function Loader1() {
             title="Loader 1"
             code={`export default function Loader() {
     return(
-        <div className="flex flex-col items-center">
+        <div className="flex gap-2 items-center">
             <div>
                 Loading
             </div>
@@ -17,7 +17,7 @@ export default function Loader1() {
         </div>
     )
 }`}>
-                <div className="flex flex-col items-center">
+                <div className="flex gap-2 items-center">
                     <div>
                         Loading
                     </div>
