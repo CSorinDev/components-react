@@ -1,13 +1,24 @@
-export default function Test() {
+import { Link } from "react-router-dom"
+
+export default function Header() {
+    const menu = [
+        { title: "Home", path: "/", },
+        { title: "About", path: "/about", },
+        { title: "Contact", path: "/contact" },
+    ]
+
     return(
-        <div className="flex flex-col items-center">
-            <div>
-                Loading
-            </div>
-            <div
-                className="size-6 border-4 border-dotted rounded-full border-l-black border-t-gray-600 border-r-gray-300 border-b-gray-100 animate-spin"
-                >
-            </div>
-        </div>
+        <header className="w-[calc(100vw-400px)] h-12 bg-blue-500 flex justify-center items-center text-white shadow-md shadow-black">
+            {menu.map((navLink, index) => {
+                return(
+                    <Link 
+                        className="py-2 px-4 text-xl"
+                        key={index}
+                        url={navLink.path}>
+                        {navLink.title}
+                    </Link>
+                )
+            })}
+        </header>
     )
 }

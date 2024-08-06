@@ -22,7 +22,7 @@ export default function Carousel() {
         <Article title="Carousel 2"
         code={`import { useState } from "react"
 
-export default function Carousel3() {
+export default function Carousel() {
     const [carouselIndex, setCarouselIndex] = useState(0)
 
     const turnLeft = () => {
