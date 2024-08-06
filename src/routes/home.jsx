@@ -1,12 +1,10 @@
-import { Outlet } from "react-router-dom";
-import Layout from "../layouts/layout";
-import Header3 from "../assets/headers/header3";
+import { Outlet } from "react-router-dom"
+import Layout from "../layouts/layout"
 
 export default function Home() {
     return(
-        // <Layout>
-        //     <Outlet />
-        // </Layout>
-        <Header3 />
+        <Layout>
+            <Outlet />
+        </Layout>
     )
 }

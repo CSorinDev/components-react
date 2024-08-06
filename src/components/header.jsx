@@ -7,8 +7,11 @@ export default function Header() {
     const menu = [
         { name: 'Home', path: '/' },
         { name: 'Buttons', path: '/buttons' },
+        { name: 'Loaders', path: '/loaders' },
         { name: 'Carousels', path: '/carousels' },
         { name: 'Headers', path: '/headers' },
+        { name: 'Forms', path: '/forms' },
+        { name: 'Test', path: '/test' },
     ]
 
     return(

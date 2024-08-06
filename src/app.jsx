@@ -5,6 +5,9 @@ import ErrorPage from "./error-page";
 import Buttons from "./routes/buttons";
 import Carousels from "./routes/carousels";
 import Headers from "./routes/headers";
+import Test from "./routes/test";
+import Loaders from "./routes/loaders";
+import Forms from "./routes/forms";
 
 export default function App() {
     const router = createBrowserRouter([
@@ -25,6 +28,18 @@ export default function App() {
               path: "headers",
               element: <Headers />,
             },
+            {
+              path: "test",
+              element: <Test />
+            },
+            {
+              path: "loaders",
+              element: <Loaders />
+            },
+            {
+              path: "forms",
+              element: <Forms />,
+            }
           ],
       },
       {
